@@ -1,10 +1,6 @@
 
 class Shoe
-  def initializer (brand,color,size,material,condition)
-    @brand = brand
-    @color = color
-    @size = size
-    @material = material
-    @condition = condition
+  def initializer (brand)
+  @brand = brand
   end
 end
